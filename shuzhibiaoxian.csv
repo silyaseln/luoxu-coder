@@ -1,0 +1,76 @@
+Diseases,Algorithms,AUPRC,AUROC,Accuracy,Specificity,Sensitivity,F1
+Disease of digestive system,"Ensemble learning-C(N,x)",0.991,0.986,0.957,0.996,0.956,0.967
+Disease of digestive system,Classifier chain-LR,0.992,0.986,0.954,0.996,0.954,0.964
+Disease of digestive system,Classifier chain-XGBoost,0.993,0.989,0.966,0.995,0.978,0.975
+Disease of digestive system,Classifier chain-SVM,0.976,0.941,0.961,0.935,0.968,0.968
+Disease of digestive system,Classifier chain-RF,0.995,0.993,0.97,0.993,0.995,0.977
+Disease of urinary system,"Ensemble learning-C(N,x)",0.99,0.998,0.99,0.998,0.955,0.955
+Disease of urinary system,Classifier chain-LR,0.996,0.999,0.994,0.999,0.97,0.97
+Disease of urinary system,Classifier chain-XGBoost,0.993,0.999,0.986,0.996,0.985,0.935
+Disease of urinary system,Classifier chain-SVM,0.998,1,0.994,0.999,0.955,0.969
+Disease of urinary system,Classifier chain-RF,0.999,1,0.995,0.999,0.985,0.977
+Disease of obstetrics and gynecology,"Ensemble learning-C(N,x)",0.996,0.999,0.992,0.999,0.942,0.97
+Disease of obstetrics and gynecology,Classifier chain-LR,0.994,0.999,0.994,0.999,0.953,0.976
+Disease of obstetrics and gynecology,Classifier chain-XGBoost,0.99,0.998,0.989,0.999,0.93,0.958
+Disease of obstetrics and gynecology,Classifier chain-SVM,0.993,0.999,0.986,0.999,0.907,0.945
+Disease of obstetrics and gynecology,Classifier chain-RF,0.995,0.999,0.986,0.999,0.907,0.945
+Vascular lesions,"Ensemble learning-C(N,x)",0.899,0.966,0.971,0.996,0.808,0.824
+Vascular lesions,Classifier chain-LR,0.755,0.933,0.957,0.996,0.615,0.703
+Vascular lesions,Classifier chain-XGBoost,0.915,0.946,0.982,0.997,0.885,0.893
+Vascular lesions,Classifier chain-SVM,0.843,0.914,0.963,0.998,0.615,0.736
+Vascular lesions,Classifier chain-RF,0.895,0.938,0.979,0.999,0.79,0.857
+liver disease,"Ensemble learning-C(N,x)",1,1,0.999,0.999,0.999,0.999
+liver disease,Classifier chain-LR,1,1,0.997,0.999,1,0.96
+liver disease,Classifier chain-XGBoost,0.971,0.999,0.984,0.996,0.958,0.821
+liver disease,Classifier chain-SVM,1,1,0.999,0.999,1,0.999
+liver disease,Classifier chain-RF,1,1,1,1,1,1
+Intestinal disease ,"Ensemble learning-C(N,x)",0.933,0.961,0.941,0.996,0.817,0.871
+Intestinal disease ,Classifier chain-LR,0.906,0.958,0.892,0.98,0.902,0.805
+Intestinal disease ,Classifier chain-XGBoost,0.946,0.976,0.937,0.993,0.863,0.871
+Intestinal disease ,Classifier chain-SVM,0.946,0.975,0.928,0.988,0.902,0.86
+Intestinal disease ,Classifier chain-RF,0.964,0.985,0.942,0.998,0.804,0.872
+Pancreatic disease ,"Ensemble learning-C(N,x)",0.906,0.954,0.971,0.998,0.84,0.883
+Pancreatic disease ,Classifier chain-LR,0.892,0.934,0.944,0.991,0.827,0.793
+Pancreatic disease ,Classifier chain-XGBoost,0.919,0.962,0.965,0.996,0.864,0.864
+Pancreatic disease ,Classifier chain-SVM,0.873,0.952,0.95,0.992,0.877,0.821
+Pancreatic disease ,Classifier chain-RF,0.922,0.97,0.961,0.998,0.753,0.836
+Biliary tract disease ,"Ensemble learning-C(N,x)",0.905,0.971,0.949,0.995,0.825,0.855
+Biliary tract disease ,Classifier chain-LR,0.892,0.969,0.959,0.989,0.87,0.821
+Biliary tract disease ,Classifier chain-XGBoost,0.914,0.971,0.939,0.99,0.895,0.843
+Biliary tract disease ,Classifier chain-SVM,0.861,0.936,0.934,0.994,0.772,0.811
+Biliary tract disease ,Classifier chain-RF,0.937,0.983,0.953,0.995,0.851,0.87
+Gastroduodenal disease ,"Ensemble learning-C(N,x)",0.893,0.93,0.953,0.995,0.8,0.824
+Gastroduodenal disease ,Classifier chain-LR,0.864,0.936,0.926,0.994,0.848,0.757
+Gastroduodenal disease ,Classifier chain-XGBoost,0.88,0.935,0.96,0.996,0.824,0.848
+Gastroduodenal disease ,Classifier chain-SVM,0.912,0.924,0.956,0.996,0.804,0.835
+Gastroduodenal disease ,Classifier chain-RF,0.932,0.981,0.968,0.998,0.824,0.875
+Obstetrical disease ,"Ensemble learning-C(N,x)",0.944,0.994,0.987,0.997,0.917,0.943
+Obstetrical disease ,Classifier chain-LR,0.979,0.997,0.989,0.994,0.958,0.952
+Obstetrical disease ,Classifier chain-XGBoost,0.982,0.998,0.989,0.993,0.972,0.952
+Obstetrical disease ,Classifier chain-SVM,0.966,0.997,0.986,0.996,0.917,0.936
+Obstetrical disease ,Classifier chain-RF,0.982,0.998,0.981,0.996,0.875,0.913
+Gynecological disease ,"Ensemble learning-C(N,x)",0.724,0.988,0.984,0.992,0.808,0.808
+Gynecological disease ,Classifier chain-LR,0.801,0.992,0.982,0.991,0.808,0.792
+Gynecological disease ,Classifier chain-XGBoost,0.846,0.978,0.984,0.995,0.731,0.792
+Gynecological disease ,Classifier chain-SVM,0.837,0.989,0.982,0.991,0.808,0.792
+Gynecological disease ,Classifier chain-RF,0.837,0.97,0.981,0.991,0.769,0.769
+Kidney disease ,"Ensemble learning-C(N,x)",0.837,0.958,0.973,0.985,0.844,0.817
+Kidney disease ,Classifier chain-LR,0.848,0.992,0.981,0.983,0.977,0.88
+Kidney disease ,Classifier chain-XGBoost,0.879,0.993,0.982,0.986,0.956,0.887
+Kidney disease ,Classifier chain-SVM,0.841,0.993,0.979,0.985,0.933,0.866
+Kidney disease ,Classifier chain-RF,0.898,0.994,0.973,0.995,0.699,0.785
+Ureteral disease ,"Ensemble learning-C(N,x)",0.441,0.906,0.968,0.984,0.6,0.6
+Ureteral disease ,Classifier chain-LR,0.579,0.961,0.952,0.964,0.721,0.541
+Ureteral disease ,Classifier chain-XGBoost,0.599,0.98,0.968,0.98,0.683,0.625
+Ureteral disease ,Classifier chain-SVM,0.582,0.971,0.966,0.975,0.841,0.574
+Ureteral disease ,Classifier chain-RF,0.583,0.982,0.968,0.709,0.986,0.57
+Cardiovascular disease,"Ensemble learning-C(N,x)",0.804,0.941,0.97,0.838,0.988,0.765
+Cardiovascular disease,Classifier chain-LR,0.86,0.957,0.965,0.977,0.834,0.76
+Cardiovascular disease,Classifier chain-XGBoost,0.87,0.957,0.978,0.889,0.994,0.82
+Cardiovascular disease,Classifier chain-SVM,0.84,0.954,0.974,0.985,0.858,0.82
+Cardiovascular disease,Classifier chain-RF,0.877,0.95,0.979,1,0.691,0.815
+Other cardiovascular disease,"Ensemble learning-C(N,x)",1,1,0.999,0.999,1,0.998
+Other cardiovascular disease,Classifier chain-LR,0.907,0.979,0.997,0.996,0.998,0.9
+Other cardiovascular disease,Classifier chain-XGBoost,0.798,0.997,0.992,0.792,0.994,0.771
+Other cardiovascular disease,Classifier chain-SVM,0.912,0.989,0.997,0.9,0.998,0.9
+Other cardiovascular disease,Classifier chain-RF,0.95,0.999,0.99,0.99,0.995,0.759
